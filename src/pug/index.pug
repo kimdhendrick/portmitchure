@@ -46,26 +46,80 @@ html(lang='en')
         header.masthead
             .container.d-flex.h-100.align-items-center
                 .mx-auto.text-center
-                    h1.mx-auto.my-0.text-uppercase Mitchell Barnes Photography
-                    h2.text-white-50.mx-auto.mt-2.mb-5 A one-liner about you...
-                    a.btn.btn-primary.js-scroll-trigger(href='#gallery') Gallery
+                    h1.mx-auto.my-0 Mitchell Barnes
+                    h1.mx-auto.my-0 photography
+                    .spacer
+                    h2.text-white-50.mx-auto.mt-2.mb-4 Passionate
+                    h2.text-white-50.mx-auto.mt-2.mb-4 professional
+                    h2.text-white-50.mx-auto.mt-2.mb-4 photographer
+                    h2.text-white-50.mx-auto.mt-2.mb-4 for hire
 
         section#gallery.about-section.text-center
             .container
                 .row
-                    .col-lg-8.mx-auto
-                        div#carouselExampleIndicators.carousel.slide(data-ride="carousel")
+                    //environmental
+                    .col-lg-12.mx-auto
+                        div#carouselExampleIndicators.carousel.slide
                             ol.carousel-indicators
                                 li.active(data-target="#carouselExampleIndicators" data-slide-to="0" )
                                 li(data-target="#carouselExampleIndicators" data-slide-to="0" )
                                 li(data-target="#carouselExampleIndicators" data-slide-to="0" )
+                                li(data-target="#carouselExampleIndicators" data-slide-to="0" )
+                                li(data-target="#carouselExampleIndicators" data-slide-to="0" )
+                                li(data-target="#carouselExampleIndicators" data-slide-to="0" )
                             .carousel-inner
                                 .carousel-item.active
-                                    img.d-block.w-100(src='assets/img/demo-image-01.jpg', alt='First slide')
-                                    .carousel-caption.d-none.d-md-block Cool photo of...
+                                    img.d-block.w-100(src='assets/img/IMG_6206_1.jpg', alt='Second slide')
                                 .carousel-item
-                                    img.d-block.w-100(src='assets/img/demo-image-02.jpg', alt='Second slide')
-                                    .carousel-caption.d-none.d-md-block took this at...
+                                    img.d-block.w-100(src='assets/img/IMG_4727.jpg', alt='Second slide')
+                                .carousel-item
+                                    img.d-block.w-100(src='assets/img/IMG_5017.jpg', alt='First slide')
+                                .carousel-item
+                                    img.d-block.w-100(src='assets/img/AfterlightImage.jpg', alt='First slide')
+                                .carousel-item
+                                    img.d-block.w-100(src='assets/img/DSC08596.jpg', alt='Second slide')
+                                .carousel-item
+                                    img.d-block.w-100(src='assets/img/DSC08563.jpg', alt='Second slide')
+                            a.carousel-control-prev(href="#carouselExampleIndicators" role="button" data-slide="prev")
+                                span.carousel-control-prev-icon(aria-hidden="true")
+                                span.sr-only Previous
+                            a.carousel-control-next(href="#carouselExampleIndicators" role="button" data-slide="next")
+                                span.carousel-control-next-icon(aria-hidden="true")
+                                span.sr-only Next
+                    //portrait
+                    .col-lg-12.mx-auto
+                        div#carouselExampleIndicators.carousel.slide
+                            ol.carousel-indicators
+                                li.active(data-target="#carouselExampleIndicators" data-slide-to="0" )
+                                li(data-target="#carouselExampleIndicators" data-slide-to="0" )
+                                li(data-target="#carouselExampleIndicators" data-slide-to="0" )
+                                li(data-target="#carouselExampleIndicators" data-slide-to="0" )
+                                li(data-target="#carouselExampleIndicators" data-slide-to="0" )
+                            .carousel-inner
+                                .carousel-item.active
+                                    img.d-block.w-100(src='assets/img/DSC00348.jpg', alt='Second slide')
+                                .carousel-item
+                                    img.d-block.w-100(src='assets/img/stickbug-05.jpg', alt='Second slide')
+                                .carousel-item
+                                    img.d-block.w-100(src='assets/img/stickbug-14.jpg', alt='First slide')
+                                .carousel-item
+                                    img.d-block.w-100(src='assets/img/DSC09761.jpg', alt='First slide')
+                                .carousel-item
+                                    img.d-block.w-100(src='assets/img/DSC09905.jpg', alt='Second slide')
+                            a.carousel-control-prev(href="#carouselExampleIndicators" role="button" data-slide="prev")
+                                span.carousel-control-prev-icon(aria-hidden="true")
+                                span.sr-only Previous
+                            a.carousel-control-next(href="#carouselExampleIndicators" role="button" data-slide="next")
+                                span.carousel-control-next-icon(aria-hidden="true")
+                                span.sr-only Next
+                    //macro
+                    .col-lg-12.mx-auto
+                        div#carouselExampleIndicators.carousel.slide
+                            ol.carousel-indicators
+                                li.active(data-target="#carouselExampleIndicators" data-slide-to="0" )
+                            .carousel-inner
+                                .carousel-item.active
+                                    img.d-block.w-100(src='assets/img/DSC06164.jpg', alt='Second slide')
                             a.carousel-control-prev(href="#carouselExampleIndicators" role="button" data-slide="prev")
                                 span.carousel-control-prev-icon(aria-hidden="true")
                                 span.sr-only Previous
@@ -130,7 +184,7 @@ html(lang='en')
                                 i.fas.fa-map-marked-alt.text-primary.mb-2
                                 h4.text-uppercase.m-0 Address
                                 hr.my-4
-                                .small.text-black-50 448 Somerset Drive, Golden CO 80401
+                                .small.text-black-50 448 Somerset Drive Golden CO 80401
                     .col-md-4.mb-3.mb-md-0
                         .card.py-4.h-100
                             .card-body.text-center
@@ -157,7 +211,7 @@ html(lang='en')
         // Footer
         footer.footer.bg-black.small.text-center.text-white-50
             .container
-                | Some footer text?
+                | Mitchell Barnes 2020
 
         // Bootstrap core JS
         script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js')
