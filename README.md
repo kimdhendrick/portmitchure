@@ -1,3 +1,12 @@
+# Development & Deployment
+- Make changes on master (or branch of your choice).
+- Make sure to `npm build` or `npm start` to verify changes and cause `dist` folder to be updated.
+- run `./deploy.sh`
+  - this pushes the `dist` subfolder as a branch to `gh-pages`
+- Github pages settings are configured to publish the `gh-pages` root folder 
+- Github pages settings are configured to redirect to mitchellbarnesphoto.com.
+- GoDaddy is configured with `A` records to point go Github pages.
+
 # [Start Bootstrap - Grayscale](https://startbootstrap.com/themes/grayscale/)
 
 [Grayscale](http://startbootstrap.com/themes/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
