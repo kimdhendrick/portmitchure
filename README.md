@@ -7,6 +7,15 @@
 - Github pages settings are configured to redirect to mitchellbarnesphoto.com.
 - GoDaddy is configured with `A` records to point go Github pages.
 
+## Downloading fonts
+- Find font source online, download .zip file (e.g. dafont.com)
+- Upload to font generator (e.g. www.web-font-generator.com)
+- Downloaded generated .zip file
+- Copy 2 `@font_face` definitions into .scss file (e.g. _typography.scss)
+- Copy `.eot`, `.ttf`, and `.svg` files into appropriate scss folder
+- Use font name in scss!
+- For an example, check out `BradleyHandITC` or `LucidaHandwriting-Italic`
+ 
 # [Start Bootstrap - Grayscale](https://startbootstrap.com/themes/grayscale/)
 
 [Grayscale](http://startbootstrap.com/themes/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/).
