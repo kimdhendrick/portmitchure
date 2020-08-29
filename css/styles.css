@@ -10296,6 +10296,10 @@ body {
 }
 .masthead .spacer {
   margin-top: 16rem;
+  line-height: 8rem;
+}
+.masthead .my-0 {
+  padding-bottom: 40px;
 }
 
 .about-section {
